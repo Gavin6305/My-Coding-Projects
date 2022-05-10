@@ -8,10 +8,10 @@ void printVector (vector<Element> group) {
     }
 }
 
-
-
 void WinMain1() {
-    cout << 'x' << endl;
+    string e;
+    cin >> e;
+    cout << removeSpaces(e) << " " << removeSpaces(e).length() << endl;
 }
 
 void WinMain2() {
@@ -28,7 +28,9 @@ void WinMain3 () {
     string expression;
     cout << "Enter expression: " << endl;
     cin >> expression;
-    printVector(getElements(expression, 'x'));
+    vector<Element> elements = getElements(expression, 'x');
+    cout << elements.size() << " elements found" << endl;
+    printVector(elements);
 }
 
 int WinMain () {
