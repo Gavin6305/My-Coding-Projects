@@ -1,0 +1,6 @@
+https://forecast.weather.gov/MapClick.php?CityName=Milford&state=NJ
+https://forecast.weather.gov/MapClick.php?CityName=Phillipsburg&state=NJ
+https://forecast.weather.gov/MapClick.php?CityName=Elizabeth&state=NJ
+https://forecast.weather.gov/MapClick.php?CityName=Camden&state=NJ
+https://forecast.weather.gov/MapClick.php?CityName=Vineland&state=NJ
+
