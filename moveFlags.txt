@@ -1,0 +1,15 @@
+code	promotion	capture	    special 1	special 0	kind of move
+0	    0	        0	        0	        0	        quiet moves             0000
+1	    0	        0	        0	        1	        double pawn push        0001
+2	    0	        0	        1	        0	        king castle             0010
+3	    0	        0	        1	        1	        queen castle            0011
+4	    0	        1	        0	        0	        captures                0100
+5	    0	        1	        0	        1	        ep-capture              0101
+8	    1	        0	        0	        0	        knight-promotion        1000
+9	    1	        0	        0	        1	        bishop-promotion        1001
+10	    1	        0	        1	        0	        rook-promotion          1010
+11	    1	        0	        1	        1	        queen-promotion         1011
+12	    1	        1	        0	        0	        knight-promo capture    1100
+13	    1	        1	        0	        1	        bishop-promo capture    1101
+14	    1	        1	        1	        0	        rook-promo capture      1110
+15	    1	        1	        1	        1	        queen-promo capture     1111

@@ -1,0 +1,10 @@
+function search(initialState, goalStates)
+    fringe = [new nodes from initialState]
+    explored = []
+    while (fringe not empty)
+        node = fringe.remove()
+        if node.state not in explored
+            if node.state in goalStates report SUCCESS
+            fringe += node.successors()
+            explored += node.state
+    report FAILURE
