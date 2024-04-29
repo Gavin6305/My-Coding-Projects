@@ -38,5 +38,5 @@ done
 #Remove unnecessary filees
 rm tagsoup-1.2.1.jar
 
-#Stop MySQL server
-sudo service mysql stop
+#Start Apache2 web server
+sudo service apache2 start
