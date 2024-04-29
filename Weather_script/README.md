@@ -1,3 +1,4 @@
+# Weather Script
 This is a script that displays a table of the extended weather forecast for 5 cities in New Jersey (Camden, Elizabeth, Milford, Phillipsburg and Vineland). It consists of multiple files.
 
 **weather.sh**
